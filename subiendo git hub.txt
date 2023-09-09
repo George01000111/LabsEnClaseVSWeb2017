@@ -1,7 +1,7 @@
 
 git init
 git add .
-git commit -m "resuviendo"
+git commit -m "subiendo por primera vez"
 git remote set-url origin https://github.com/George01000111/LabsEnClaseVSWeb2017.git
 git push -u origin master
 
