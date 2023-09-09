@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="lib/jquery/jquery.js"></script>
+    <script type="text/javascript">
+        //espera hasta que cargue el DOM
+        $(document).ready(function () {
+            
+            //asignamos un evento a los <button>
+            //document.getElementById...
+            $("#boton1").click(function () {
+                //oculto todos los <p>
+                $("p").hide();
+                //oculto el tag con id=demo
+                $("#demo").hide();
+                //oculto los tags con class=clase
+                $(".clase").hide();
+            });
+            $("#boton2").dblclick(function () {
+                alert("Hiciste doble clic!");
+            });
+            $("#animar").click(function () {
+                $("#paraAnimar").animate({ left: '300px' });
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Texto de cabecera</h1>
+    <p>Parrafo 1</p>
+    <p>Parrafo 2</p>
+    <div id="demo">demo div</div>
+    <br />
+    <div class="clase">div con clase</div>
+    <button id="boton1">click para ocultarlos</button>
+    <p id="boton2">Boton 2</p>
+    <br />
+    <div id="paraAnimar" style="background-color:green;height:100px;width:100px;position:absolute"></div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <button id="animar">Animar</button>
+</body>
+</html>

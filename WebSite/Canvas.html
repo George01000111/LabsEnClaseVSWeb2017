@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ejemplos de CANVAS</title>
+</head>
+<body>
+    <div>
+        <p>canvas lineal</p>
+        <canvas id="canvas1" width="300" height="200"
+                style="border:1px solid #d3d3d3">
+            Tu navegador web no soporta CANVAS
+        </canvas>
+    </div>
+    <div>
+        <p>canvas circulo</p>
+        <canvas id="canvas2" width="300" height="200"
+                style="border:1px solid #d3d3d3">
+            Tu navegador web no soporta CANVAS
+        </canvas>
+    </div>
+    <div>
+        <p>canvas texto</p>
+        <canvas id="canvas3" width="300" height="200"
+                style="border:1px solid #d3d3d3">
+            Tu navegador web no soporta CANVAS
+        </canvas>
+    </div>
+    <div>
+        <p>canvas gradiente lineal</p>
+        <canvas id="canvas4" width="300" height="200"
+                style="border:1px solid #d3d3d3">
+            Tu navegador web no soporta CANVAS
+        </canvas>
+    </div>
+    <div>
+        <p>imagen a usar</p>
+        <img id="scream" alt="el grito!" width="220" height="277"
+             src="images/img_the_scream.jpg" />
+        <p>cargar al canvas:</p>
+        <canvas id="imagenCanvas" width="250" height="300"
+                style="border:1px solid #d3d3d3">
+            Tu navegador web no soporta CANVAS
+        </canvas>
+        <p><button id="botonCanvas" onclick="moverImagenACanvas()">Intenta!</button></p>
+    </div>
+    <script>
+        //lineal
+        var c = document.getElementById("canvas1");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0, 0);
+        ctx.lineTo(300, 200);
+        ctx.stroke();
+        //circulo
+        var c2 = document.getElementById("canvas2");
+        var ctx2 = c2.getContext("2d");
+        ctx2.beginPath();
+        ctx2.arc(95, 50, 40, 0, 2 * Math.PI);
+        ctx2.stroke();
+        //texto
+        var c3 = document.getElementById("canvas3");
+        var ctx3 = c3.getContext("2d");
+        ctx3.font = "30px Arial";
+        ctx3.fillText("texto en canvas", 10, 50);
+        //gradiente lineal/circular
+        var c4 = document.getElementById("canvas4");
+        var ctx4 = c4.getContext("2d");
+        //var grd = ctx4.createLinearGradient(0, 0, 200, 0);
+        var grd = ctx4.createRadialGradient(75,50,5,90,60,100);
+        grd.addColorStop(0, "lightblue");
+        grd.addColorStop(1, "white");
+        ctx4.fillStyle = grd;
+        ctx4.fillRect(10, 10, 150, 80);
+
+        function moverImagenACanvas() {
+            var c5 = document.getElementById("imagenCanvas");
+            var ctx5 = c5.getContext("2d");
+            var img = document.getElementById("scream");
+            ctx5.drawImage(img, 10, 10);
+            alert("Canvas cargado!");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories\bin\Release\Cibertec.Repositories.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories\bin\Release\Cibertec.Repositories.pdb
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories\bin\Release\Cibertec.Models.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories\bin\Release\Cibertec.Models.pdb
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories\obj\Release\Cibertec.Repositories.csprojAssemblyReference.cache
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories\obj\Release\Cibertec.Repositories.csproj.CoreCompileInputs.cache
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories\obj\Release\Cibertec.Repositories.csproj.CopyComplete
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories\obj\Release\Cibertec.Repositories.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories\obj\Release\Cibertec.Repositories.pdb

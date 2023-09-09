@@ -1,0 +1,17 @@
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\bin\Release\Cibertec.Repositories.Dapper.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\bin\Release\Cibertec.Repositories.Dapper.pdb
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\bin\Release\Cibertec.Models.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\bin\Release\Cibertec.Repositories.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\bin\Release\Cibertec.UnitOfWork.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\bin\Release\Dapper.Contrib.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\bin\Release\Dapper.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\bin\Release\Cibertec.Models.pdb
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\bin\Release\Cibertec.Repositories.pdb
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\bin\Release\Cibertec.UnitOfWork.pdb
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\bin\Release\Dapper.xml
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\bin\Release\Dapper.Contrib.xml
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\obj\Release\Cibertec.Repositories.Dapper.csprojAssemblyReference.cache
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\obj\Release\Cibertec.Repositories.Dapper.csproj.CoreCompileInputs.cache
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\obj\Release\Cibertec.Repositories.Dapper.csproj.CopyComplete
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\obj\Release\Cibertec.Repositories.Dapper.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Repositories.Dapper\obj\Release\Cibertec.Repositories.Dapper.pdb

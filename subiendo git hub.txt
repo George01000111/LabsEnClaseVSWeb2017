@@ -1,0 +1,18 @@
+
+git init
+git add .
+git commit -m "resuviendo"
+git remote set-url origin https://github.com/George01000111/LabsEnClaseVSWeb2017.git
+git push -u origin master
+
+
+si no funciona subir de esta manera
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/George01000111/LabsEnClaseVSWeb2017.git
+git push origin master -f
+
+-----------------------------------------------
+reducir la carpeta .git
+git gc --aggressive --prune

@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Cibertec.Models.Customer>
+
+<div id="table-container" class="table-responsive">
+    
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Country)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @using Cibertec.Mvc.TagHelper
+                    @Html.EmailCustom(item.Email)
+                </td>
+                <td>
+                    <a href="#" onclick="cibertec.getModal('@Url.Action("Edit",new { id = item.Id })'); return false;"
+                       data-toggle="modal" data-target="#modal-container" class="btn btn-warning btn-sm">
+                        <span class="glyphicon glyphicon-edit"></span> Editar
+                    </a>
+                    <a href="#" onclick="cibertec.getModal('@Url.Action("Delete",new { id = item.Id })'); return false;"
+                       data-toggle="modal" data-target="#modal-container" class="btn btn-danger btn-sm">
+                        <span class="glyphicon glyphicon-trash"></span> Eliminar
+                    </a>
+
+                    @*@Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                        @Html.ActionLink("Ordenes", "OrdersByCustomer", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })*@
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+

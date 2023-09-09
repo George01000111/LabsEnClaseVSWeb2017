@@ -1,0 +1,210 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DD54F948-6497-4D81-BB9A-950CF2C1754C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebSite</RootNamespace>
+    <AssemblyName>WebSite</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="audios\horse.mp3" />
+    <Content Include="Canvas.html" />
+    <Content Include="CSS.html" />
+    <Content Include="ejemploJQuery.html" />
+    <Content Include="images\border.png" />
+    <Content Include="images\cibertec.jpg" />
+    <Content Include="images\clouds.jpg" />
+    <Content Include="images\html5.gif" />
+    <Content Include="images\img_5terre.jpg" />
+    <Content Include="images\img_chania.jpg" />
+    <Content Include="images\img_flwr.gif" />
+    <Content Include="images\img_forest.jpg" />
+    <Content Include="images\img_girl.jpg" />
+    <Content Include="images\img_man.jpg" />
+    <Content Include="images\img_mountains.jpg" />
+    <Content Include="images\img_orange_flowers.jpg" />
+    <Content Include="images\img_pink_flowers.jpg" />
+    <Content Include="images\img_the_scream.jpg" />
+    <Content Include="images\img_tree.gif" />
+    <Content Include="images\img_tree.png" />
+    <Content Include="images\img_white_flower.jpg" />
+    <Content Include="images\klematis.jpg" />
+    <Content Include="images\paper.gif" />
+    <Content Include="images\paris.jpg" />
+    <Content Include="images\pic_trulli.jpg" />
+    <Content Include="images\pineapple.jpg" />
+    <Content Include="images\rock600x400.jpg" />
+    <Content Include="images\scene-preview.jpg" />
+    <Content Include="images\searchicon.png" />
+    <Content Include="images\smiley.gif" />
+    <Content Include="images\w3schools.jpg" />
+    <Content Include="images\workplace.jpg" />
+    <Content Include="index.html" />
+    <Content Include="Inputs.html" />
+    <Content Include="lib\jquery\core.js" />
+    <Content Include="lib\jquery\jquery.js" />
+    <Content Include="lib\jquery\jquery.min.js" />
+    <Content Include="lib\jquery\jquery.slim.js" />
+    <Content Include="lib\jquery\jquery.slim.min.js" />
+    <Content Include="Media.html" />
+    <Content Include="productos.html" />
+    <Content Include="pruebaAjax.html" />
+    <Content Include="registro.html" />
+    <Content Include="ResponsiveBootstrap.html" />
+    <Content Include="scripts\ejemplos.js" />
+    <Content Include="scripts\index.js" />
+    <Content Include="scripts\map.js" />
+    <Content Include="scripts\module.js" />
+    <Content Include="scripts\objectLiterals.js" />
+    <Content Include="scripts\video.js" />
+    <Content Include="styles\samples.css" />
+    <Content Include="styles\styles.css" />
+    <Content Include="styles\stylesSASS.css" />
+    <Content Include="styles\stylesSASS.min.css">
+      <DependentUpon>stylesSASS.css</DependentUpon>
+    </Content>
+    <Content Include="SVG.html" />
+    <Content Include="TagsSemanticos.html" />
+    <Content Include="ubicanos.html" />
+    <Content Include="videos\big-buck-bunny_trailer.webm" />
+    <Content Include="videos\HTML5Sample_H264.mov" />
+    <Content Include="videos\HTML5Sample_WebM.webm" />
+    <Content Include="videos\movie.mp4" />
+    <Content Include="videos\mov_bbb.mp4" />
+    <Content Include="Web.config" />
+    <Content Include="webStorage.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="audios\horse.ogg" />
+    <Content Include="fonts\sansation_bold.woff" />
+    <Content Include="fonts\sansation_light.woff" />
+    <Content Include="ajax\prueba.json" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="libman.json" />
+    <Content Include="lib\jquery\jquery.min.map" />
+    <Content Include="lib\jquery\jquery.slim.min.map" />
+    <None Include="packages.config" />
+    <Content Include="videos\HTML5Sample_Ogg.ogv" />
+    <Content Include="videos\movie.ogg" />
+    <Content Include="videos\mov_bbb.ogg" />
+    <Content Include="scss\base\_site.scss" />
+    <Content Include="scss\helpers\_colors.scss" />
+    <Content Include="scss\helpers\_mixin.scss" />
+    <Content Include="scss\styles.scss" />
+    <Content Include="scss\base\_navigation.scss" />
+    <Content Include="scss\base\_button.scss" />
+    <Content Include="scss\base\_input.scss" />
+    <Content Include="scss\components\_map.scss" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56956</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56956/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

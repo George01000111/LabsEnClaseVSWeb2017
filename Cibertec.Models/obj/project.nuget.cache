@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0RdMlrEZ8COTsbAodA9UFJ2AKYDppw8RMch1TX+rIPrIPFxJymfumQD4/uZFnfr36bgEQ86x8hAqJviWMYLY8g==",
+  "success": true,
+  "projectFilePath": "D:\\LabsEnClaseVSWeb2017\\Cibertec.Models\\Cibertec.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\georg\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\georg\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

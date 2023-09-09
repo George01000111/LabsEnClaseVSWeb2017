@@ -1,0 +1,16 @@
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\bin\Release\netstandard2.0\Cibertec.Models.deps.json
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\bin\Release\netstandard2.0\Cibertec.Models.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\bin\Release\netstandard2.0\Cibertec.Models.pdb
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\bin\Release\netstandard2.0\System.ComponentModel.DataAnnotations.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\bin\Release\netstandard2.0\System.Configuration.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\bin\Release\netstandard2.0\System.Security.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\bin\Release\netstandard2.0\System.ComponentModel.DataAnnotations.xml
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\bin\Release\netstandard2.0\System.Configuration.xml
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\bin\Release\netstandard2.0\System.Security.xml
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\obj\Release\netstandard2.0\Cibertec.Models.csprojAssemblyReference.cache
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\obj\Release\netstandard2.0\Cibertec.Models.csproj.CoreCompileInputs.cache
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\obj\Release\netstandard2.0\Cibertec.Models.AssemblyInfoInputs.cache
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\obj\Release\netstandard2.0\Cibertec.Models.AssemblyInfo.cs
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\obj\Release\netstandard2.0\Cibertec.Models.csproj.CopyComplete
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\obj\Release\netstandard2.0\Cibertec.Models.dll
+C:\VS2017WebLabs\LabsEnClaseVSWeb2017\Cibertec.Models\obj\Release\netstandard2.0\Cibertec.Models.pdb

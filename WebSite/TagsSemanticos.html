@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        * {
+            box-sizing:border-box;
+        }
+        body{
+            font-family: Arial, Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: chocolate;
+            padding:30px;
+            text-align:center;
+            font-size:35px;
+            color:white;
+        }
+        nav{
+            float:left;
+            width:30%;
+            height:300px;
+            background-color:#ccc;
+            padding:30px;
+        }
+        nav ul{
+            list-style-type:none;
+            padding:0;
+        }
+        article{
+            float:left;
+            padding:20px;
+            width:70%;
+            background-color:azure;
+            height:auto;
+        }
+        section:after{
+            content:"";
+            display:table;
+            clear:both;
+        }
+        footer{
+            background-color:blanchedalmond;
+            padding:10px;
+            text-align:center;
+            color:black;
+        }
+        /*img{
+            max-height:150px;
+        }*/
+        /*Cuando el ancho de la pagina sea menor a 600px cambia el diseño*/
+        @media(max-width: 600px){
+            nav, article {
+                width:100%;
+                height:auto;
+            }
+        }
+    </style>
+    <link href="styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Ejemplo tags semanticos</h1>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">javascript</a></li>
+                <li><a href="#">Bootstrap</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>titulo del articulo</h1>
+            <p>contenido del articulo</p>
+            <figure>
+                <img src="images/pic_trulli.jpg" />
+                <figcaption>Descripción de la imagen</figcaption>
+            </figure>
+        </article>
+    </section>
+    <footer><p>Pie de la pagina</p></footer>
+    
+    <!--<aside>
+        <h4>contenido aside</h4>
+        <p>texto de contenido aside</p>
+    </aside>-->
+    
+</body>
+</html>

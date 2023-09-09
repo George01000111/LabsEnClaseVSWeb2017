@@ -1,0 +1,73 @@
+﻿body div#fondo{
+    background-image:url("../images/img_tree.png");
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-attachment:fixed;
+}
+p.puntos{
+    border-style:double;
+}
+/*links*/
+a:link, a:visited{
+    background-color:#f44336;
+    color:white;
+    padding:14px 25px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+}
+a:hover, a:active{
+    background-color:red;
+}
+/*selectores*/
+/*Todos los <p> anidados o dentro de un <div>*/
+div p{
+    background-color:aqua;
+}
+/*Todos lo <p> que tienen directamente un padre <div>*/
+div > p {
+    background-color: green;
+}
+/*El primer <p> que sigue a un <div>*/
+div + p {
+    background-color: red;
+}
+/*Todos los <p> que siguen a <div>*/
+div ~ p {
+    color: yellow;
+}
+/*Opacity*/
+img{
+    opacity:0.5;
+}
+img:hover{
+    opacity:1.0;
+}
+input[type="text"]{
+    width:150px;
+    display:block;
+    margin-bottom:10px;
+    background-color:lightblue;
+}
+    input[type="text"]#search {
+        width: 100%;
+        box-sizing:border-box;
+        border:2px solid #ccc;
+        border-radius:4px;
+        font-size:16px;
+        background-color:white;
+        background-image:url("../images/searchicon.png");
+        background-position:10px 10px;
+        background-repeat:no-repeat;
+        padding:12px 20px 12px 40px;
+    }
+input[type=button], input[type=submit], input[type=reset]{
+    background-color:darkgreen;
+    border:none;
+    color:white;
+    padding:16px 32px;
+    cursor:pointer;
+    width:120px;
+    margin:4px 2px;
+    /*display:block;*/
+}

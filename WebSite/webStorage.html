@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function clickCounter() {
+            if (typeof (Storage) !== "undefined") {
+                if (localStorage.clickCount) {
+                    localStorage.clickCount = Number(localStorage.clickCount) + 1;
+                } else {
+                    localStorage.clickCount = 1;
+                }
+                document.getElementById("resultadoClick").innerHTML =
+                    "Hiciste clic en el botón " + localStorage.clickCount + " veces";
+            } else {
+                document.getElementById("resultadoClick").innerHTML = "Browser no soporta Web Storage";
+            }
+        }
+
+        function clickCounterSession() {
+            if (typeof (Storage) !== "undefined") {
+                if (sessionStorage.clickCount) {
+                    sessionStorage.clickCount = Number(sessionStorage.clickCount) + 1;
+                } else {
+                    sessionStorage.clickCount = 1;
+                }
+                document.getElementById("resultadoClickSession").innerHTML =
+                    "Hiciste clic en el botón " + sessionStorage.clickCount + " veces";
+            } else {
+                document.getElementById("resultadoClickSession").innerHTML = "Browser no soporta Web Storage";
+            }
+        }
+    </script>
+</head>
+<body>
+    <p><b>LOCAL STORAGE</b></p>
+    <div id="resultado"></div>
+    <p><button onclick="clickCounter()" type="button">Hacer click</button></p>
+    <div id="resultadoClick"></div>
+    <br />
+    <br />
+    <p><b>SESSION STORAGE</b></p>
+    <p><button onclick="clickCounterSession()" type="button">Hacer click</button></p>
+    <div id="resultadoClickSession"></div>
+
+    <script>
+        if (typeof (Storage) !== "undefined") {
+            localStorage.setItem("apellido", "Ramos");
+            document.getElementById("resultado").innerHTML = localStorage.getItem("apellido");
+            localStorage.removeItem("apellido");
+        } else {
+            document.getElementById("resultado").innerHTML="Browser no soporta Web Storage";
+        }
+        //con objetos
+        var persona = {
+            nombre: "Angel",
+            apellido:"Ramos"
+        };
+        var personaAGuardar = JSON.stringify(persona);//serializan
+        localStorage.setItem("persona", personaAGuardar);
+
+        var personaGuardada = localStorage.getItem("persona");
+        console.log(typeof persona);//object
+        console.log(typeof personaGuardada);//string
+
+        var personaGuardada2 = JSON.parse(personaGuardada);//deserializan
+        console.log(typeof personaGuardada2);//object
+        console.log(personaGuardada2.nombre);
+    </script>
+</body>
+</html>

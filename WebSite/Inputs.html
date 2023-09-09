@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form method="post" action="usuarioController">
+        <!--method="post"-->
+        Nombre: <input type="text" id="nombre" name="firstName"  placeholder="ingrese su nombre" /><br />
+        Apellido: <input type="text" id="apellido" autofocus name="lastName" /><br />
+        Clave: <input type="password" name="psw" /><br />
+        <hr />
+        <h4>Genero</h4>
+        <input type="radio" name="gender" value="male" checked>Masculino<br />
+        <input type="radio" name="gender" value="female">Femenino<br />
+        <input type="radio" name="gender" value="other">Otro<br />
+        <hr />
+        <h4>Transporte:</h4>
+        <input type="checkbox" name="transporte1" value="Bicicleta" />Tengo Bicicleta<br />
+        <input type="checkbox" name="transporte2" value="Carro" />Tengo Carro<br />
+        <input type="button" value="Click Alert!" onclick="alert('Hola click!')" />
+        <hr />
+        <input type="text" name="id" value="1" readonly />
+        <input type="text" name="id2" value="2" disabled/><br />
+        Seleccione un color<input type="color" name="favColor" /><br />
+        Cumpleaños:<input type="date" name="bday" max="2019-03-16" /><br />
+        Mes:<input type="month" /><br />
+        Seleccione (1 a 5):<input type="number" min="1" max="5" /><br />
+        Puntos:<input type="range" min="0" max="10" /><br />
+        Busqueda:<input type="search" /><br />
+        <input type="text" name="platos" list="lista-platos"/>
+        <datalist id="lista-platos">
+            <option value="Ceviche">
+            <option value="Lomo saltado">
+            <option value="Causa">
+        </datalist>
+        <!-- Fin de form -->
+        <hr />
+        <br />
+        <button type="submit" formtarget="_blank">SUBMIT</button>
+        <input type="reset" />
+    </form>
+
+    <hr />
+    <hr />
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        a + b = x <br />
+        <input type="range" id="a" name="a" value="50" />+
+        <input type="number" id="b" name="b" value="50" />=
+        <b><output name="x" for="a b"></output></b>
+        <br />
+        <input type="submit" />
+    </form>
+</body>
+</html>
